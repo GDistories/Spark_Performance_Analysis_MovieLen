@@ -10,8 +10,8 @@ docker network create --driver=bridge hadoop
 
 # 启动 worker 节点
 echo "启动 worker 节点..."
-docker run -itd --network hadoop -h "hadoop02" --name "hadoop02" -p 2182:2181 gdistories/spark:20231125_DSAA5021
-docker run -itd --network hadoop -h "hadoop03" --name "hadoop03" -p 2183:2181 gdistories/spark:20231125_DSAA5021
+docker run -itd --network hadoop -h "hadoop02" --name "hadoop02" -p 2182:2181 gdistories/dsaa5021_spark:20231130
+docker run -itd --network hadoop -h "hadoop03" --name "hadoop03" -p 2183:2181 gdistories/dsaa5021_spark:20231130
 
 # 启动 master 节点
 echo "启动 master 节点..."
