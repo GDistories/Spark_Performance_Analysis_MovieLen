@@ -2,6 +2,8 @@
 
 This project is the Final Project for DSAA5021. You can quickly set up the environment and try out our code by following these steps.
 
+Please Download the full dataset from [MovieLen](https://grouplens.org/datasets/movielens/25m/), and put the dataset in the folder `ml-25m`.
+
 ## Cluster overview
 
 | Application      | URL                                      | Description                                              |
